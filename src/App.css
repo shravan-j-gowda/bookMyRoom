@@ -1,0 +1,42 @@
+/* src/CSS/App.css */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background: radial-gradient(
+    circle,
+    #000000,
+    #282525
+  ); /* Radial gradient from pitch black to less black */
+}
+
+.App-header h1 {
+  margin: 20px 20px 20px 20px;
+  color: #e50914; /* Netflix red */
+  font-size: 5em; /* Double the font size */
+  text-align: center;
+  border-color: #7d7b7b;
+  border: 1px;
+}
+
+.App-main {
+  background-color: #111; /* Dark grey background */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Stronger shadow */
+  margin-top: 20px;
+  width: 100%;
+}
+
+.App-link {
+  color: #e50914; /* Netflix red */
+  text-decoration: none;
+}
+
+.App-link:hover {
+  text-decoration: underline;
+}

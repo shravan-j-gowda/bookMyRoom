@@ -1,0 +1,60 @@
+/* src/CSS/Signup.css */
+
+#signup-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: linear-gradient(to bottom, #1a1a1a, #333); /* Darker gradient */
+}
+
+#signup-form h2 {
+  text-align: center;
+  color: #e50914; /* Netflix red */
+}
+
+#signup-form p {
+  color: #ff5252; /* Lighter red */
+  font-size: 14px;
+}
+
+#signup-form input[type="email"],
+#signup-form input[type="password"] {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #666; /* Darker grey */
+  border-radius: 5px;
+  background-color: #333; /* Dark grey */
+  color: #fff;
+}
+
+#signup-form input[type="email"]:focus,
+#signup-form input[type="password"]:focus {
+  outline: none;
+  border-color: #e50914; /* Netflix red */
+}
+
+#signup-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #e50914; /* Netflix red */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#signup-form button:hover {
+  background-color: #ff5252; /* Lighter red */
+}
+
+#signup-form p span {
+  color: #e50914; /* Netflix red */
+  cursor: pointer;
+}
+
+#signup-form p span:hover {
+  text-decoration: underline;
+}

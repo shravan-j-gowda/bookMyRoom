@@ -1,0 +1,60 @@
+/* src/CSS/Login.css */
+
+#login-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: linear-gradient(to bottom, #1a1a1a, #333); /* Darker gradient */
+}
+
+#login-form h2 {
+  text-align: center;
+  color: #e50914; /* Netflix red */
+}
+
+#login-form p {
+  color: #ff5252; /* Lighter red */
+  font-size: 14px;
+}
+
+#login-form input[type="email"],
+#login-form input[type="password"] {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #666; /* Darker grey */
+  border-radius: 5px;
+  background-color: #333; /* Dark grey */
+  color: #fff;
+}
+
+#login-form input[type="email"]:focus,
+#login-form input[type="password"]:focus {
+  outline: none;
+  border-color: #e50914; /* Netflix red */
+}
+
+#login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #e50914; /* Netflix red */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#login-form button:hover {
+  background-color: #ff5252; /* Lighter red */
+}
+
+#login-form p span {
+  color: #e50914; /* Netflix red */
+  cursor: pointer;
+}
+
+#login-form p span:hover {
+  text-decoration: underline;
+}
