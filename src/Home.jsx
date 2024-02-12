@@ -12,7 +12,7 @@ const Home = () => {
       await firebase.auth().signOut();
       console.log('Signout successful!');
       // Navigate to the login page after signout
-      window.location.href = '/login';
+      window.location.href = '/';
     } catch (error) {
       console.error('Error signing out:', error.message);
     }
